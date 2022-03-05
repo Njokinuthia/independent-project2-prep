@@ -1,1 +1,8 @@
 @import url(_utility.css);
+
+/* Displays */
+.flex {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
