@@ -1,8 +1,11 @@
+// button.addEventListener("click",()=> {
+//   h3.classList.add("bbb")
+// })
+
 //
 var submit = () => {
   calculateDay();
-  determineGenderName();
-  giveOutput();
+  determineGenderName();  
 }
 
 
@@ -10,9 +13,9 @@ var submit = () => {
 
 var calculateDay = () => {
 
-  var date = getElementById("date").value;
-  var month = getElementById("month").value;
-  var year = getElementById("year").value;
+  var date = document.getElementById("date").value;
+  var month = document.getElementById("month").value;
+  var year = document.getElementById("year").value;
 
   var centuryDigits = parseInt(year.toString().slice(0, 2));
   var yearDigits = parseInt(year.toString().slice(2, 4));
@@ -29,16 +32,16 @@ var determineGenderName = () => {
   var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
   var femaleNames = ["Akosua", "Adwoa", "Abenna", "Akua", "yaa", "Afua", "Ama"]
 
-  var gender = getElementByType("radio").checked;
-
+  var gender = document.getElementByType("radio").checked;
+// TODO:FIX ARRAY INDEX
   if (gender === male) {
-    console.log(maleNames[dateIndex]);
+    console.log("Akan Name: " + maleNames[dateIndex]);  
   }
   else {
-    femaleNames(femaleNames[dateIndex]);
+    // TODO:WHATS WRONG WITH PLACE HOLDER
+    femaleNames(`Akan Name: ${femaleNames[dateIndex]}`);
   }
 }
-
 
 
 
