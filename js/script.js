@@ -3,7 +3,7 @@ var date = getElementById.value;('date')
 var month = getElementById.value;('month')
 var year = getElementById.value;('year')
 
-// birth details validation 
+// function - birth details validation 
 var validateBirthDetails = (date , month, year)=>{
   if (date <= 0 || d > 31){
     alert('Please enter a valid date')
