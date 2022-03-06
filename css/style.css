@@ -3,6 +3,14 @@
   color: red;
 } */
 
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(assets/feet.jpeg);
+}
+
 /* header styling */
 .btn {
   height: 40px;
@@ -25,3 +33,6 @@ nav , footer{
 }
 
 /* form styling */
+.form-container {
+  border-radius: 30px;
+}
