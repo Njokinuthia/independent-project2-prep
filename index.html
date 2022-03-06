@@ -13,25 +13,25 @@
 
 <body>
 
-  <header class="center">
+  <header class="center border">
     <nav class="flex justify-between w-100 py-1 shadow">
       <div class="icon flex">
-        <img src="assets/bulb.jpg" alt="idea" width="100">
+        <img src="assets/bulb.jpg" alt="idea" width="50">
         <div class="flex items-center">
         <p class="icon italic">Akan<br>Names<br>Calculator</p>
         </div>
       </div>
 
       <div class="navbar w-75 flex justify-evenly items-center italic">
-        <a class="navlink hover" href="">Home</a>
-        <a class="navlink hover" href="">Form</a>
-        <a class="navlink hover" href="">Info</a>
+        <a id="home" class="navlink hover" href="">Home</a>
+        <a id="form" class="navlink hover" href="">Form</a>
+        <a id="info" class="navlink hover" href="">Info</a>
       </div>
     </nav>
   </header>
 
   <!-- page one -->
-  <div class="pageOne border center py-4">
+  <div id="pageOne" class="pageOne border center py-4">
     <div class="intro italic py-4">
       <h1 class="py-4">Do you know your Akan Name?</h1>
       <h3> Let's find out!</h3>
@@ -49,32 +49,23 @@
 
     <p>Akan names are a naming system from the Ghanian cuture in which children are given names according to their gender and day of the week they were born</p>
 
-    <button class="btn"> Calculate</button>    
+    <button id="getStarted" class="btn my-4" type="submit"> Get Started </button>    
   </div>
 
-
-<!-- page two -->
-  <div class="pageTwo d-none border center userInput w-100 flex justify-evenly items-center py-4 my-4">
+  <!-- page two -->
+  <div id="pageTwo" class="pageTwo d-none border center userInput w-100 flex justify-evenly items-center py-4 my-4">
 
     <h3 class="italic">Please fill in your details</h3>
 
-    <div class="form-container w-50 border shadow-xy py-4 px-4 ">
+    <div  class="form-container w-50 border shadow-xy py-4 px-4 ">
       <h2>Calculation Form</h2>
-      <form>
 
+      <form>
         <h3>Name details</h3>  
-        <label for="fname">Name</label>
+        <label for="fname">Name</label><br>
         <input type="text" id="fname" name="fname" placeholder="Name">
   
-        <h3>Gender details</h3>
-<!-- 
-        <select class="option" name="gender">
-          <option disabled="disabled" selected="selected">---Choose your gender---</option>
-          <option value="female">Female</option>
-          <option value="male">Male</option>
-        </select><br> -->
-
-
+        <h3>Gender details</h3>  
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br>
   
@@ -91,18 +82,15 @@
         <label for="year">Year of Birth</label>
         <input type="number" min="1900" max="2022" id="year" name="year" placeholder="Year"><br>
   
-        <button class="btn my-4">Submit</button>  
+        <button id="calculate submit" class="btn my-4">Submit</button>  
   
       </form>
 
     </div>
-
-
-    
-
   </div>
 
-  <div class="pageThree d-none border py-4 my-4">
+<!-- page three -->
+  <div id="pageThree" class="pageThree d-none border py-4 my-4">
     <h2 class="italic center">Akan Names</h2>
     <p class="center">Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the
       day in the week
@@ -139,9 +127,9 @@
   </div>
 
   <footer class="italic shadow">
-    <nav class="flex justify-between w-100 py-1 shadow">
+    <nav class="flex justify-between w-100 shadow">
       <div class="icon flex">
-        <img src="assets/bulb.jpg" alt="idea" width="100">
+        <img src="assets/bulb.jpg" alt="idea" width="50">
         <div class="flex items-center">
         <p class="icon italic center">Akan<br>Names<br>Calculator</p>
         </div>
@@ -155,7 +143,13 @@
     </nav>
   </footer>
 
-  <script rel="stylesheet" type="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
+<!-- 
+<select class="option" name="gender">
+  <option disabled="disabled" selected="selected">---Choose your gender---</option>
+  <option value="female">Female</option>
+  <option value="male">Male</option>
+</select><br> -->

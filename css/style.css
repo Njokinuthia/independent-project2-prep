@@ -1,17 +1,13 @@
-/* 
-.bbb{
-  color: red;
-} */
 
 *{
   padding: 0;
   margin: 0;
 }
  /* body{
-  background-image: url(../assets/blue.jpg);
+  background-image: url(../assets/feet.jpeg);
   background-repeat: no-repeat;
   background-size: cover;  
-} */
+}  */
 
 /* .pageTwo{
   background-image: url(../assets/feet.jpeg);
@@ -27,8 +23,6 @@
   
 }  */
 
-}
-
 /* header styling */
 .btn {
   height: 40px;
@@ -41,7 +35,7 @@ nav , footer{
   background-color:#FEFAF9;   
 }
 
-.navlink, .icon{
+.navlink,.icon{
   color: black;
   font-weight: bold; 
   list-style: none;   
