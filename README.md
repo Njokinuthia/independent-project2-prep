@@ -1,8 +1,9 @@
-# independent-project2-prep
+
 # Akan name calculator.
+## Independent-project2-Prep Moringa
 
 ##### By Eunice Njoki Kinuthia
-### Independent-Project-2---Prep
+
 ### A web application that lets you have fun with your birthday details. 
 
 
