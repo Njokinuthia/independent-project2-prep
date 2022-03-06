@@ -15,10 +15,10 @@ nav , footer{
   background-color:#FEFAF9;   
 }
 
-.navlink{
+.navlink, .icon{
   color: black;
   font-weight: bold; 
-  list-style: none; 
+  list-style: none;   
 }
 .navlink:hover{
   color: rgb(255, 174, 0)
