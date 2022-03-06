@@ -5,6 +5,36 @@
   justify-content: center;
   width: auto;
 }
+
+/* Justify */
+
+.justify-between {
+  justify-content: space-between !important;
+}
+.justify-evenly {
+  justify-content: space-evenly !important;
+}
+.justify-around {
+  justify-content: space-around !important;
+}
+.justify-center {
+  justify-content: center !important;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
+
+
 /* Dimensions */
 
 .w-100 {
@@ -165,4 +195,3 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
-

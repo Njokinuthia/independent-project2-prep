@@ -1,9 +1,27 @@
-.btn{
-  color: green;
-  padding: 10px;
-  border: 1px solid black
-}
-
+/* 
 .bbb{
   color: red;
+} */
+
+/* header styling */
+.btn {
+  height: 40px;
+  width: 100px;
+  background:#FAF8F8;
+  color: black;
+  border-radius: 10px;
 }
+nav{   
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+  background-color:#FEFAF9;
+   
+}
+.navlink{
+  color: black;
+  font-weight: bold; 
+  list-style: none; 
+}
+.navlink:hover{
+  color: rgb(255, 174, 0)
+}
+
