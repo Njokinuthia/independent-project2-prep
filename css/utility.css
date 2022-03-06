@@ -1,9 +1,15 @@
-
+/* boundary */
+.border{
+  border: 1px solid black;
+}
 /* Displays */
 .flex {
   display: flex;
   justify-content: center;
   width: auto;
+}
+.column{
+  flex-direction: column;
 }
 
 /* Justify */
@@ -33,6 +39,10 @@
 .items-end {
   align-items: flex-end;
 }
+.center{
+  text-align: center;
+}
+
 
 
 /* Dimensions */

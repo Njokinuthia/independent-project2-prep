@@ -7,31 +7,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/utility.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Birthday Page</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <title>Akan Name Calculator</title>
 </head>
 
 <body>
 
-  <header>
+  <header class="center">
     <nav class="flex justify-between w-100 py-1 shadow">
-      <div class="icon">
-        <img src="assets/bulb.jpg" alt="idea" width="100" >        
+      <div class="border icon flex">
+        <img src="assets/bulb.jpg" alt="idea" width="100">
+        <p class="icon">Akan Names <br>Calculator</p>
       </div>
 
-      <div class="navbar w-75 flex justify-evenly items-center">
+      <div class="navbar border w-75 flex justify-evenly items-center">
         <a class="navlink hover" href="">Home</a>
-        <a class="navlink hover" href="">Contacts</a>
         <a class="navlink hover" href="">Form</a>
-        <a class="navlink hover" href="">Details</a>
-      </div>   
+        <a class="navlink hover" href="">Info</a>
+
+      </div>
     </nav>
   </header>
 
+  <div class="pageOne center border">
+    <div class="intro">
+      <h1>Find out your Akan Name!</h1>
+      <h3> Let's find out!</h3>
+    </div>
 
-  <div class="userInput w-100 flex justify-evenly items-center shadow py-4"> 
+    <div>
+      <p>You know when you were born right?...Date, month and year. What about the day of the week?</p>
+      <p>If you don't, worry not. Lucky for you there are ways to calculate the day of the week from a specific date.
+      </p>
+    </div>
 
-    <h3>Please fill in your details below</h3>
-    
+    <h3>Use our Akan Name calculator!</h3>
+
+    <p>It calculates the day of the week you were born and depending on your gender outputs your Akan Name.</p>
+
+    <p>Akan names are a naming system from the Ghanian cuture in which children are given names according to their
+      gender and day of the week they were born.</p>
+  </div>
+
+
+  <div class="pageTwo center border userInput w-100 flex justify-evenly items-center shadow py-4">
+
+    <h3>Please fill in your details</h3>
+
 
     <form>
       <h3>Name details</h3>
@@ -57,17 +79,64 @@
       <label for="year">Year of Birth</label>
       <input type="number" min="1900" max="2022" id="year" name="year" placeholder="Year"><br>
 
-      <button class="btn" >Submit</button>
+      <button class="btn">Submit</button>
 
 
     </form>
 
   </div>
 
-  
+  <div class="pageThree  border">
+    <p class="center">Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week
+      they were born. Here are Ghanian day names.</p>
+    <div class="genderNames flex justify-around">
+      <div class="male">
+        <h3 class="center">Male</h3>
+        <ul>
+          <li>Sunday: Kwasi</li>
+          <li>Monday: Kwadwo</li>
+          <li>Tuesday: Kwabena</li>
+          <li>Wednesday: Kwaku</li>
+          <li>Thursday: Yaw</li>
+          <li>Friday: Kofi</li>
+          <li>Saturday: Kwame</li>
+        </ul>
+      </div>
+
+      <div class="female">
+        <h3 class="center">Female</h3>
+        <ul>
+          <li>Sunday: Akosua</li>
+          <li>Monday: Adwoa</li>
+          <li>Tuesday: Abenaa</li>
+          <li>Wednesday: Akua</li>
+          <li>Thursday: Yaa</li>
+          <li>Friday: Afua</li>
+          <li>Saturday: Ama</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="center">Did you find out yours? <br>Welcome again!</h3>
+  </div>
+
+  <footer class="border">
+    <nav class="flex justify-between w-100 py-1 shadow">
+      <div class="border icon flex">
+        <img src="assets/bulb.jpg" alt="idea" width="100">
+        <p class="icon center">Akan <br>Names <br>Calculator</p>
+      </div>
+      <div class="border socials flex w-25 justify-around items-center">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+      </div>     
+    </nav>    
+  </footer>
 
 
   <script rel="stylesheet" type="js/script.js"></script>
+
 </body>
 
 </html>

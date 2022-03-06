@@ -11,10 +11,10 @@
   color: black;
   border-radius: 10px;
 }
-nav{   
-  background-color:#FEFAF9;
-   
+nav , footer{   
+  background-color:#FEFAF9;   
 }
+
 .navlink{
   color: black;
   font-weight: bold; 
@@ -25,8 +25,3 @@ nav{
 }
 
 /* form styling */
-.userInput{
-  flex-direction: column;
-  /* border: 1px solid black; */
-  
-}
