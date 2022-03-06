@@ -7,8 +7,26 @@
   padding: 0;
   margin: 0;
 }
-body{
-  background-image: url(assets/feet.jpeg);
+ /* body{
+  background-image: url(../assets/blue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+} */
+
+/* .pageTwo{
+  background-image: url(../assets/feet.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-position: center;
+} 
+.pageThree{
+  background-image: url(../assets/blue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-position: center;
+  
+}  */
+
 }
 
 /* header styling */
