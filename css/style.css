@@ -4,7 +4,7 @@
   margin: 0;
 }
   body{
-    margin: auto;
+  margin: auto;
   background-image: url(../assets/feet.jpeg);
   background-repeat: no-repeat;
   background-size: cover;  
@@ -23,18 +23,21 @@ nav , footer{
   background-color:#FEFAF9;   
 }
 
-.navlink,.icon{
+.navlink , .icon{
   color: black;
   font-weight: bold; 
-  list-style: none;   
+  text-decoration: none;  
 }
 .navlink:hover{
   color: rgb(255, 174, 0)
 }
 
 /* form styling */
+.userInput{
+  flex-direction: column;
+}
 .form-container{ 
-  height: 70vh;
+  height: 50vh;
   border-radius: 30px;
   background-color: #FEFAF9;
   opacity: 0.8;
@@ -48,10 +51,3 @@ input, label, select {
   font-size:50px
 }
 
-/* pages */
-.pageOne, .pageThree{
-  height:50vh;
-}
-.pageTwo{
-  flex-direction: column;
-}

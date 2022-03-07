@@ -13,7 +13,7 @@
 
 <body class=h-100>
 
-  <header class="center border">
+  <header class="center">
     <nav class="flex justify-between w-100 py-1 shadow">
       <div class="icon flex">
         <img src="assets/bulb.jpg" alt="idea" width="50">
@@ -23,15 +23,15 @@
       </div>
 
       <div class="navbar w-75 flex justify-evenly items-center italic">
-        <a id="home" class="navlink hover" href="">Home</a>
-        <a id="form" class="navlink hover" href="">Form</a>
-        <a id="info" class="navlink hover" href="">Info</a>
+        <a class="navlink hover" href="#">Home</a>
+        <a class="navlink hover" href="#">Form</a>
+        <a class="navlink hover" href="#">Info</a>
       </div>
     </nav>
   </header>
 
   <!-- page one -->
-  <div id="pageOne" class="pageOne center py-4">
+  <div class="center py-4">
     <div class="intro italic py-4">
       <h1 class="py-4">Do you know your Akan Name?</h1>
       <h3> Let's find out!</h3>
@@ -47,95 +47,42 @@
     <p>It calculates the day of the week you were born and depending on your gender outputs your Akan Name.</p>
     <p>Akan names are a naming system from the Ghanian cuture in which children are given names according to their
       gender and day of the week they were born</p>
-    
+
   </div>
 
   <!-- page two -->
-  <div id="pageTwo" class="pageTwo d-noe center userInput w-100 flex justify-evenly items-center py-4 my-4">
-
+  <div class=" userInput center w-100 flex justify-evenly items-center py-4 my-4">
     <h3 class="italic">Please fill in your details</h3>
-
     <div class="form-container w-50 border shadow-xy py-4 px-4 ">
-
       <h2 class="shadow py-4 mb-4 ">Calculation Form</h2>
-
       <form class="w-100">
+
         <div class="w-100 py-4">
-          <h3 class="py-2" >Name details</h3>
+          <h3 class="py-2">Name details</h3>
           <label for="fname">Name</label><br>
           <input type="text" id="fname" name="fname" placeholder="Name">
         </div>
 
-        <div class="w-100 py-4"> 
-          <h3 class="py-2" >Gender details</h3>
+        <div class="w-100 py-4">
+          <h3 class="py-2">Gender details</h3>
           <select id="gender" class="option" name="gender">
-            <option disabled="disabled" selected="selected">---Choose your gender---</option>
             <option value="female">Female</option>
             <option value="male">Male</option>
           </select><br>
         </div>
 
         <div class="w-100 py-4">
-          <h3 class="py-2" >Birthday details</h3>
-          <label for="date">Date </label><br>
-          <input type="number" min="1" max="31" id="date" name="date" placeholder="Date"><br>
-
-          <label for="month">Month</label><br>
-          <input type="number" min="1" max="12" id="month" name="month" placeholder="Month"><br>
-
-          <label for="year">Year </label><br>
-          <input type="number" min="1900" max="2022" id="year" name="year" placeholder="Year"><br>
-
+          <h3 class="py-2">Date Of Birth</h3>
+          <input type="date" id="dob">
         </div>
 
         <div>
           <button id="submit" class="btn my-4">Submit</button>
           <h2 id="response" class="response center italic py-4"></h2>
         </div>
-        
       </form>
-
     </div>
-
   </div>
-
-  <!-- page three --> 
-  <!-- <div> 
-    
-    <h2 class="italic center">Akan Names</h2>
-    <p class="center">Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the
-      day in the week
-      they were born. Here are Ghanian day names.</p>
-    <div class="genderNames flex justify-around">
-      <div class="male">
-        <h3 class="center italic">Male</h3>
-        <ul>
-          <li>Sunday: Kwasi</li>
-          <li>Monday: Kwadwo</li>
-          <li>Tuesday: Kwabena</li>
-          <li>Wednesday: Kwaku</li>
-          <li>Thursday: Yaw</li>
-          <li>Friday: Kofi</li>
-          <li>Saturday: Kwame</li>
-        </ul>
-      </div>
-
-      <div class="female">
-        <h3 class="center italic">Female</h3>
-        <ul>
-          <li>Sunday: Akosua</li>
-          <li>Monday: Adwoa</li>
-          <li>Tuesday: Abenaa</li>
-          <li>Wednesday: Akua</li>
-          <li>Thursday: Yaa</li>
-          <li>Friday: Afua</li>
-          <li>Saturday: Ama</li>
-        </ul>
-      </div>
-    </div>
-
-    <h3 class="center italic">Did you find out yours? <br>Welcome again!</h3>
-  </div> -->
 
   <footer class="italic shadow">
     <nav class="flex justify-between w-100 shadow">
@@ -152,8 +99,7 @@
         <i class="fab fa-twitter"></i>
       </div>
     </nav>
-  </footer>    
-  
+  </footer>
 
   <script src="js/script.js"></script>
 </body>
