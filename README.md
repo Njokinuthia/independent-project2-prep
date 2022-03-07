@@ -12,7 +12,6 @@
 + [Description](#description)
 + [Installation Requirement](#Installation)
 + [Technology Used](#technology-used)
-+ [BDD](#Beehaviour Driven Development)
 + [Licence](#licence)
 + [Author Contact](#author-contact)
 
