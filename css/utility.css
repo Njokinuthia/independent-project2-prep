@@ -1,5 +1,5 @@
 /* boundary */
-.border{
+.border {
   border: 1px solid black;
 }
 /* Displays */
@@ -8,7 +8,7 @@
   justify-content: center;
   width: auto;
 }
-.column{
+.column {
   flex-direction: column;
 }
 
@@ -39,11 +39,9 @@
 .items-end {
   align-items: flex-end;
 }
-.center{
+.center {
   text-align: center;
 }
-
-
 
 /* Dimensions */
 
@@ -206,13 +204,13 @@
   padding-right: 1rem;
 }
 
-.shadow{
+.shadow {
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
 }
-.shadow-xy{
+.shadow-xy {
   box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.25);
 }
 /* font style */
-.italic{
+.italic {
   font-style: italic;
 }

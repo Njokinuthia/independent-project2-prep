@@ -1,55 +1,58 @@
-
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-  body{
+body {
   margin: auto;
   background-image: url(../assets/feet.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
   background-position: center;
-} 
+}
 
 /* button styling */
 .btn {
   height: 40px;
   width: 100px;
-  background:#F1D760;
+  background: #f1d760;
   color: black;
   border-radius: 10px;
 }
-nav , footer{   
-  background-color:#FEFAF9;   
+nav,
+footer {
+  background-color: #fefaf9;
 }
 
-.navlink , .icon{
+.navlink,
+.icon {
   color: black;
-  font-weight: bold; 
-  text-decoration: none;  
+  font-weight: bold;
+  text-decoration: none;
 }
-.navlink:hover{
-  color: rgb(255, 174, 0)
+.navlink:hover {
+  color: rgb(255, 174, 0);
 }
 
 /* form styling */
-.userInput{
+.userInput {
   flex-direction: column;
 }
-.form-container{ 
+.form-container {
   height: 50vh;
   border-radius: 30px;
-  background-color: #FEFAF9;
+  background-color: #fefaf9;
   opacity: 0.8;
 }
-input, label, select {
+input,label,select {
   padding: 5px;
-  width: 70%;  
+  width: 70%;
 }
 
-.response{
-  font-size:20px;
-  height:60px
+.response {
+  font-size: 20px;
+  height: 60px;
 }
-
+.white{
+  background-color: white;
+}

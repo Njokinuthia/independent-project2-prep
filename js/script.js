@@ -26,31 +26,31 @@ let calculateDay = () => {
   let date = new Date(birthDay);
   let dayOfBirth = date.getDay();
 
-  if(validate(gender,birthDay,name) ){
-      // determine name
-  let akanName;
-  if (gender === "male") {
-    akanName = akanNames[dayOfBirth].male;
+  if (validate(gender, birthDay, name)) {
+    // determine name
+    let akanName;
+    if (gender === "male") {
+      akanName = akanNames[dayOfBirth].male;
+    }
+    else {
+      akanName = akanNames[dayOfBirth].female;
+    }
+
+    // output answer
+    console.log(akanName);
+    document.getElementById("response").innerText = `Your akan name is ${akanName}`;
+
   }
   else {
-    akanName = akanNames[dayOfBirth].female;
-  }
-
-  // output answer
-  console.log(akanName);
-  document.getElementById("response").innerText = `Your akan name is ${akanName}`;
-
-  }
-  else{
     alert("Please fill in the entire form.")
   }
-  
+
 }
 
 // validation
 
-let validate = (gender, dob ,name) => {
-  if (!gender || !dob || !name) return false; 
+let validate = (gender, dob, name) => {
+  if (!gender || !dob || !name) return false;
   return true;
 }
 
