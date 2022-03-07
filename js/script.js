@@ -21,11 +21,12 @@ let calculateDay = () => {
   // get user input
   let birthDay = document.getElementById("dob").value;
   let gender = document.getElementById("gender").value;
+  let name = document.getElementById("fname").value;
 
   let date = new Date(birthDay);
   let dayOfBirth = date.getDay();
 
-  if(validate(gender,birthDay) ){
+  if(validate(gender,birthDay,name) ){
       // determine name
   let akanName;
   if (gender === "male") {
@@ -41,15 +42,15 @@ let calculateDay = () => {
 
   }
   else{
-    alert("Please fill in the form.")
+    alert("Please fill in the entire form.")
   }
-
+  
 }
 
 // validation
 
-let validate = (gender, dob) => {
-  if (!gender || !dob) return false; 
+let validate = (gender, dob ,name) => {
+  if (!gender || !dob || !name) return false; 
   return true;
 }
 
