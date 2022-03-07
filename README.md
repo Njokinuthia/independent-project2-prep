@@ -12,6 +12,7 @@
 + [Description](#description)
 + [Installation Requirement](#Installation)
 + [Technology Used](#technology-used)
++ [BDD](#Beehaviour Driven Development)
 + [Licence](#licence)
 + [Author Contact](#author-contact)
 
@@ -33,6 +34,16 @@
 * CSS -  used to style the pages. 
 
 * Javascript -  used to make the website interactive.
+
+## Behaviour Driven Development
+
+1. Displays Form For Entering Date and Gender
+   - INPUT: "User's Birthdate Entered"
+   - INPUT: "User's Gender Entered"
+   - OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"
+2. Displays an Error Message if any of the Input fields Left Blank
+   - INPUT: ""
+   - OUTPUT: "Displays Error Message"
 
 ## Licence
 
