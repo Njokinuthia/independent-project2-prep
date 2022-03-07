@@ -73,7 +73,7 @@ var calculateDay = () => {
   }
   // get and validate year input
   var yearValue = document.getElementById("year").value;
-  if (yearValue <=0 || yearValue > 12){
+  if (yearValue <=0 || yearValue > 2022){
     alert("Invalid year - pick year from 0000 to 2022") 
    }
   else {
