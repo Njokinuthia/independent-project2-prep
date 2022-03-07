@@ -58,6 +58,7 @@ var calculateDay = () => {
   // get and validate day input
   var dateValue = document.getElementById("date").value;
   if (dateValue <=0 || dateValue > 31){
+    // TODO:MESSAGE ON SCREEN
     alert("Invalid Date - pick date from 1 to 31") 
    }
   else {
