@@ -3,32 +3,19 @@
   padding: 0;
   margin: 0;
 }
-  /* body{
+  body{
     margin: auto;
-  background-image: url(../assets/feet.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;  
-}   */
-
-/* .pageTwo{
   background-image: url(../assets/feet.jpeg);
   background-repeat: no-repeat;
   background-size: cover;  
   background-position: center;
 } 
-.pageThree{
-  background-image: url(../assets/blue.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;  
-  background-position: center;
-  
-}  */
 
-/* header styling */
+/* button styling */
 .btn {
   height: 40px;
   width: 100px;
-  background:#FAF8F8;
+  background:#F1D760;
   color: black;
   border-radius: 10px;
 }
@@ -46,6 +33,25 @@ nav , footer{
 }
 
 /* form styling */
-.form-container {
+.form-container{ 
+  height: 70vh;
   border-radius: 30px;
+  background-color: #FEFAF9;
+  opacity: 0.8;
+}
+input, label, select {
+  padding: 5px;
+  width: 70%;  
+}
+
+.response{
+  font-size:50px
+}
+
+/* pages */
+.pageOne, .pageThree{
+  height:50vh;
+}
+.pageTwo{
+  flex-direction: column;
 }
