@@ -2,6 +2,7 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
   body{
   margin: auto;
@@ -48,6 +49,7 @@ input, label, select {
 }
 
 .response{
-  font-size:50px
+  font-size:20px;
+  height:60px
 }
 

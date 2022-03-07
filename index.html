@@ -11,7 +11,7 @@
   <title>Akan Name Calculator</title>
 </head>
 
-<body class=h-100>
+<body>
 
   <header class="center">
     <nav class="flex justify-between w-100 py-1 shadow">
@@ -43,7 +43,7 @@
       </p>
     </div>
 
-    <h3 class="italic py-4 my-4">Use our Akan Name calculator!</h3>
+    <h3 class="italic py-4">Use our Akan Name calculator!</h3>
     <p>It calculates the day of the week you were born and depending on your gender outputs your Akan Name.</p>
     <p>Akan names are a naming system from the Ghanian cuture in which children are given names according to their
       gender and day of the week they were born</p>
@@ -51,19 +51,18 @@
   </div>
 
   <!-- page two -->
-  <div class=" userInput center w-100 flex justify-evenly items-center py-4 my-4">
-    <h3 class="italic">Please fill in your details</h3>
+  <div class="userInput center w-100 flex justify-evenly items-center py-4">    
     <div class="form-container w-50 border shadow-xy py-4 px-4 ">
       <h2 class="shadow py-4 mb-4 ">Calculation Form</h2>
       <form class="w-100">
 
-        <div class="w-100 py-4">
+        <div class="w-100 py-1">
           <h3 class="py-2">Name details</h3>
           <label for="fname">Name</label><br>
           <input type="text" id="fname" name="fname" placeholder="Name">
         </div>
 
-        <div class="w-100 py-4">
+        <div class="w-100 py-1">
           <h3 class="py-2">Gender details</h3>
           <select id="gender" class="option" name="gender">
             <option value="female">Female</option>
@@ -71,17 +70,20 @@
           </select><br>
         </div>
 
-        <div class="w-100 py-4">
+        <div class="w-100 py-1">
           <h3 class="py-2">Date Of Birth</h3>
           <input type="date" id="dob">
         </div>
 
         <div>
-          <button id="submit" class="btn my-4">Submit</button>
-          <h2 id="response" class="response center italic py-4"></h2>
+          <button id="submit" class="btn my-4">Submit</button>          
         </div>
       </form>
     </div>
+  </div>
+  
+  <div class="response">
+    <h5 id="response" class="response center italic py-2"></h5>
   </div>
 
   <footer class="italic shadow">
