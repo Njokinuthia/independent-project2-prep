@@ -1,6 +1,7 @@
 
 // // give user their answer
 let submit = document.getElementById("submit");
+
 submit.addEventListener("click", (event) => {
   event.preventDefault();
   calculateDay();
